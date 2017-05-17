@@ -1,0 +1,14 @@
+[package]
+authors = ["Antte Kaukonen <akaukone@gmail.com>"]
+name = "nrf51_blinky"
+version = "0.1.0"
+
+[dependencies]
+cortex-m = "0.2.6"
+cortex-m-rt = "0.2.1"
+cortex-m-rtfm = "0.1.0"
+nrf51 = "0.3.0"
+
+[profile.release]
+debug = true
+lto = true
